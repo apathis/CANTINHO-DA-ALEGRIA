@@ -1,0 +1,7 @@
+node_modules/
+.vite/
+previa-*.png
+referencias/
+elementos-extraidos-contato.png
+elementos-png.zip
+dist/assets/sol.png*

@@ -1,105 +1,18 @@
 <!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#fff9ec" />
-  <meta name="description" content="Cantinho da Alegria: recreação e cuidados infantis em um ambiente seguro, acolhedor e cheio de descobertas." />
-  <title>Cantinho da Alegria · Recreação e cuidados infantis</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="./responsive-match.css" />
-</head>
-<body>
-  <div class="desktop-match">
-    <img src="./assets/referencia-pagina.png" alt="Cantinho da Alegria: recreação com carinho, atividades criativas, ambiente seguro, alimentação saudável e convite para agendar uma visita." />
-    <a class="image-link image-nav-about" href="#sobre-desktop" aria-label="Sobre o Cantinho da Alegria"></a>
-    <a class="image-link image-nav-care" href="#sobre-desktop" aria-label="Nossos cuidados"></a>
-    <a class="image-link image-nav-activities" href="#atividades-desktop" aria-label="Atividades"></a>
-    <a class="image-link image-nav-contact" href="#contato-desktop" aria-label="Contato"></a>
-    <a class="image-link image-nav-button pink-effect" data-label="Conversar com a gente ↗" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer" aria-label="Conversar com a gente pelo Instagram"></a>
-    <a class="image-link image-visit-button pink-effect" data-label="Agende uma visita ↗" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer" aria-label="Agende uma visita pelo Instagram"></a>
-    <a class="image-link image-instagram-button" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer" aria-label="Fale com a gente pelo Instagram"></a>
-    <a class="image-link image-bottom-button" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer" aria-label="Vamos conversar pelo Instagram"></a>
-    <div class="image-anchor" id="sobre-desktop"></div>
-    <div class="image-anchor" id="atividades-desktop"></div>
-    <div class="image-anchor" id="contato-desktop"></div>
-    <div class="sr-only"><h1>Um cantinho para brincar, crescer e ser feliz.</h1><p>Carinho em cada cuidado, espaço para imaginar e novas descobertas todos os dias.</p><h2>Cuidado que acolhe. Diversão que ensina.</h2><p>Cuidadoras carinhosas e atenciosas. Ambiente seguro e estimulante. Atividades criativas e educativas. Refeições balanceadas e saudáveis.</p><p>Período integral, meio período ou diária. Balé, Cross Kids e almoço incluso.</p></div>
-  </div>
-  <div class="tablet-match">
-    <img src="./assets/referencia-mobile.png" alt="Prévia da versão mobile do Cantinho da Alegria, com ilustrações e informações sobre cuidados, brincadeiras e modalidades." />
-    <a class="image-link tablet-talk pink-effect" data-label="Fale conosco ↗" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco pelo Instagram"></a>
-    <a class="image-link tablet-visit pink-effect" data-label="Agende uma visita ↗" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer" aria-label="Agende uma visita pelo Instagram"></a>
-    <a class="image-link tablet-instagram" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer" aria-label="Fale com a gente pelo Instagram"></a>
-    <a class="image-link tablet-bottom" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer" aria-label="Vamos conversar pelo Instagram"></a>
-    <details class="tablet-menu"><summary aria-label="Abrir menu"></summary><nav aria-label="Menu mobile"><a href="#tablet-care">Nossos cuidados</a><a href="#tablet-activities">Atividades</a><a href="#tablet-contact">Contato</a></nav></details>
-    <div class="image-anchor" id="tablet-care"></div><div class="image-anchor" id="tablet-activities"></div><div class="image-anchor" id="tablet-contact"></div>
-  </div>
-  <div class="page-shell mobile-site">
-    <header class="site-header">
-      <a class="brand" href="#inicio" aria-label="Cantinho da Alegria, início">
-        <span class="brand-art" aria-hidden="true"><img src="./assets/logo-original.png" alt="" /></span>
-        <span class="brand-name">Cantinho <small>da Alegria</small></span>
-      </a>
-      <nav aria-label="Navegação principal">
-        <a href="#sobre">Sobre</a>
-        <a href="#cuidados">Nossos cuidados</a>
-        <a class="nav-contact" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer"><span class="nav-label-wide">Conversar com a gente</span><span class="nav-label-small">Fale conosco</span> <span aria-hidden="true">↗</span></a>
-      </nav>
-      <details class="phone-menu"><summary aria-label="Abrir menu">☰</summary><nav aria-label="Menu mobile"><a href="#sobre">Nossos cuidados</a><a href="#cuidados">Atividades</a><a href="#contato">Contato</a></nav></details>
-    </header>
-
-    <main id="inicio">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <span class="eyebrow"><span class="sparkle" aria-hidden="true">✳</span> RECREAÇÃO COM CARINHO, DIVERSÃO E DESCOBERTAS</span>
-          <h1 id="hero-title">Um cantinho para <em>brincar,</em> <span class="grow">crescer</span> e ser feliz.</h1>
-          <p>Carinho em cada cuidado, espaço para imaginar e novas descobertas todos os dias.</p>
-          <div class="hero-actions">
-            <a class="button-primary" href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer">Agende uma visita <span aria-hidden="true">↗</span></a>
-            <span class="action-note">Fale com a gente pelo Instagram</span>
-          </div>
-        </div>
-        <div class="hero-art">
-          <img class="scene" src="./assets/ilustracao-cantinho.png" alt="Ilustração colorida de uma casinha, crianças desenhadas à mão, sol e brinquedos" />
-          <img class="logo-stamp" src="./assets/logo-original.png" alt="Logo original do Cantinho da Alegria" />
-          <div class="art-sticker sticker-star" aria-hidden="true">✦</div>
-          <div class="art-sticker sticker-heart" aria-hidden="true">♥</div>
-          <div class="art-sticker sticker-smile" aria-hidden="true">☺</div>
-          <span class="art-caption">Aqui a alegria mora! <span aria-hidden="true">↗</span></span>
-        </div>
-        <span class="hero-doodle doodle-left" aria-hidden="true">✳</span>
-        <span class="hero-doodle doodle-right" aria-hidden="true">◡</span>
-      </section>
-
-      <section class="care-section" id="sobre" aria-labelledby="care-title">
-        <div class="section-heading">
-          <div>
-            <span class="small-label">O QUE FAZ NOSSO CANTINHO ESPECIAL</span>
-            <h2 id="care-title">Cuidado que acolhe.<br /><em>Diversão que ensina.</em></h2>
-          </div>
-          <p>Um ambiente pensado para as crianças se sentirem seguras, livres para criar e cheias de vontade de descobrir.</p>
-        </div>
-        <div class="care-grid" id="cuidados">
-          <article class="care-card card-pink"><span class="card-icon icon-heart" aria-hidden="true"></span><h3>Carinho de verdade</h3><p>Cuidadoras carinhosas e atenciosas em cada momento.</p></article>
-          <article class="care-card card-blue"><span class="card-icon icon-house" aria-hidden="true"></span><h3>Um lugar seguro</h3><p>Ambiente seguro e estimulante para explorar o mundo.</p></article>
-          <article class="care-card card-yellow"><span class="card-icon icon-palette" aria-hidden="true"></span><h3>Aprender brincando</h3><p>Atividades criativas e educativas cheias de imaginação.</p></article>
-          <article class="care-card card-green"><span class="card-icon icon-food" aria-hidden="true"></span><h3>Comer bem também</h3><p>Refeições balanceadas e saudáveis para cuidar de dentro para fora.</p></article>
-        </div>
-        <div class="extras"><span>⏰ Integral, meio período ou diária</span><span>🩰 Balé</span><span>⭐ Cross Kids</span><span>🍎 Almoço incluso</span></div>
-      </section>
-
-      <section class="closing" id="contato" aria-label="Entre em contato">
-        <span aria-hidden="true">✦</span>
-        <p>Quer conhecer esse cantinho de perto?</p>
-        <a href="https://www.instagram.com/cantinhodaalegria.tiadeia/" target="_blank" rel="noopener noreferrer">Vamos conversar pelo Instagram <span aria-hidden="true">↗</span></a>
-        <img class="closing-girl" src="./assets/menina-convite.png" alt="Menina ilustrada sorrindo e acenando" />
-        <span aria-hidden="true">✿</span>
-      </section>
-    </main>
-    <footer><span>Cantinho da Alegria</span><span>Recreação & cuidados infantis</span></footer>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fffaf1" />
+    <meta name="description" content="Cantinho da Alegria: recreação e cuidados infantis com carinho, brincadeiras e descobertas." />
+    <title>Cantinho da Alegria · Recreação e cuidados infantis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-Cf1avwlf.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CuhCcHGF.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
